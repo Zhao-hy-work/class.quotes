@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Twenty sourced quotes in English and Chinese. Filter by language, like your favourites, or discover a random quote.">
+  <title>Quotes · 赵浩源</title>
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header id="site-header"></header>
+  <main id="main-content" tabindex="-1">
+    <div class="page-intro">
+      <p class="eyebrow">01 / The collection</p>
+      <h1>Words worth <em>keeping.</em></h1>
+      <p class="intro">A thought can fit in a sentence and stay with you for years.</p>
+    </div>
+    <div class="quote-toolbar">
+      <div class="filter-control"><label for="language-filter">Original language</label><select id="language-filter" disabled><option value="all">All languages</option><option value="en">English</option><option value="zh">中文 / Chinese</option></select></div>
+      <button class="button" id="random-quote" type="button" disabled>Surprise me <span aria-hidden="true">↗</span></button>
+    </div>
+    <p id="quote-status" class="collection-count" role="status" aria-live="polite" aria-atomic="true">20 quotes · A little wisdom, in two languages.</p>
+    <div class="quote-grid">
+      <article class="quote" data-language="en" id="quote-1" aria-label="Quote 1 by Tim Berners-Lee" tabindex="-1">
+        <div class="quote-meta"><span>01</span><span>English</span></div>
+        <blockquote>
+          <p lang="en">This is for everyone.</p>
+        </blockquote>
+        <footer><span class="author">Tim Berners-Lee</span><cite class="source">London Olympic opening ceremony, 2012</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 1 by Tim Berners-Lee" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="zh" id="quote-2" aria-label="Quote 2 by Laozi" tabindex="-1">
+        <div class="quote-meta"><span>02</span><span>中文 / Chinese</span></div>
+        <blockquote>
+          <p lang="zh">千里之行，始于足下。</p>
+          <p class="translation">A journey of a thousand miles begins beneath your feet.</p>
+        </blockquote>
+        <footer><span class="author">Laozi</span><cite class="source">Tao Te Ching, chapter 64</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 2 by Laozi" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="en" id="quote-3" aria-label="Quote 3 by Jane Austen" tabindex="-1">
+        <div class="quote-meta"><span>03</span><span>English</span></div>
+        <blockquote>
+          <p lang="en">There is no charm equal to tenderness of heart.</p>
+        </blockquote>
+        <footer><span class="author">Jane Austen</span><cite class="source">Emma, chapter 35</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 3 by Jane Austen" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="zh" id="quote-4" aria-label="Quote 4 by Confucius" tabindex="-1">
+        <div class="quote-meta"><span>04</span><span>中文 / Chinese</span></div>
+        <blockquote>
+          <p lang="zh">学而时习之，不亦说乎？</p>
+          <p class="translation">To learn and practise what you have learned—is that not a pleasure?</p>
+        </blockquote>
+        <footer><span class="author">Confucius</span><cite class="source">Analects, 1.1</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 4 by Confucius" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="en" id="quote-5" aria-label="Quote 5 by William Shakespeare" tabindex="-1">
+        <div class="quote-meta"><span>05</span><span>English</span></div>
+        <blockquote>
+          <p lang="en">We are such stuff
+As dreams are made on, and our little life
+Is rounded with a sleep.</p>
+        </blockquote>
+        <footer><span class="author">William Shakespeare</span><cite class="source">The Tempest, act 4, scene 1</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 5 by William Shakespeare" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="zh" id="quote-6" aria-label="Quote 6 by Confucius" tabindex="-1">
+        <div class="quote-meta"><span>06</span><span>中文 / Chinese</span></div>
+        <blockquote>
+          <p lang="zh">知之为知之，不知为不知，是知也。</p>
+          <p class="translation">Know what you know, and admit what you do not know: that is knowledge.</p>
+        </blockquote>
+        <footer><span class="author">Confucius</span><cite class="source">Analects, 2.17</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 6 by Confucius" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="en" id="quote-7" aria-label="Quote 7 by Charlotte Brontë" tabindex="-1">
+        <div class="quote-meta"><span>07</span><span>English</span></div>
+        <blockquote>
+          <p lang="en">I am no bird; and no net ensnares me: I am a free human being with an independent will.</p>
+        </blockquote>
+        <footer><span class="author">Charlotte Brontë</span><cite class="source">Jane Eyre, chapter 23</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 7 by Charlotte Brontë" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="zh" id="quote-8" aria-label="Quote 8 by Confucius" tabindex="-1">
+        <div class="quote-meta"><span>08</span><span>中文 / Chinese</span></div>
+        <blockquote>
+          <p lang="zh">三人行，必有我师焉。</p>
+          <p class="translation">When I walk with others, there is always someone I can learn from.</p>
+        </blockquote>
+        <footer><span class="author">Confucius</span><cite class="source">Analects, 7.22</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 8 by Confucius" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="en" id="quote-9" aria-label="Quote 9 by Walt Whitman" tabindex="-1">
+        <div class="quote-meta"><span>09</span><span>English</span></div>
+        <blockquote>
+          <p lang="en">I am large, I contain multitudes.</p>
+        </blockquote>
+        <footer><span class="author">Walt Whitman</span><cite class="source">Song of Myself, section 51</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 9 by Walt Whitman" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="zh" id="quote-10" aria-label="Quote 10 by Laozi" tabindex="-1">
+        <div class="quote-meta"><span>10</span><span>中文 / Chinese</span></div>
+        <blockquote>
+          <p lang="zh">知人者智，自知者明。</p>
+          <p class="translation">Knowing others is wisdom; knowing yourself is clarity.</p>
+        </blockquote>
+        <footer><span class="author">Laozi</span><cite class="source">Tao Te Ching, chapter 33</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 10 by Laozi" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="en" id="quote-11" aria-label="Quote 11 by Emily Dickinson" tabindex="-1">
+        <div class="quote-meta"><span>11</span><span>English</span></div>
+        <blockquote>
+          <p lang="en">Hope is the thing with feathers</p>
+        </blockquote>
+        <footer><span class="author">Emily Dickinson</span><cite class="source">“Hope” is the thing with feathers, opening line</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 11 by Emily Dickinson" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="zh" id="quote-12" aria-label="Quote 12 by Xunzi" tabindex="-1">
+        <div class="quote-meta"><span>12</span><span>中文 / Chinese</span></div>
+        <blockquote>
+          <p lang="zh">不积跬步，无以至千里；不积小流，无以成江海。</p>
+          <p class="translation">Without small steps, no thousand-mile journey; without small streams, no rivers or seas.</p>
+        </blockquote>
+        <footer><span class="author">Xunzi</span><cite class="source">Encouraging Learning</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 12 by Xunzi" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="en" id="quote-13" aria-label="Quote 13 by John Keats" tabindex="-1">
+        <div class="quote-meta"><span>13</span><span>English</span></div>
+        <blockquote>
+          <p lang="en">A thing of beauty is a joy for ever:</p>
+        </blockquote>
+        <footer><span class="author">John Keats</span><cite class="source">Endymion, book I, opening line</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 13 by John Keats" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="zh" id="quote-14" aria-label="Quote 14 by Wang Bo" tabindex="-1">
+        <div class="quote-meta"><span>14</span><span>中文 / Chinese</span></div>
+        <blockquote>
+          <p lang="zh">海内存知己，天涯若比邻。</p>
+          <p class="translation">With a true friend in the world, even distant horizons feel close.</p>
+        </blockquote>
+        <footer><span class="author">Wang Bo</span><cite class="source">Sending Du Shaofu to His Appointment in Shuzhou</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 14 by Wang Bo" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="en" id="quote-15" aria-label="Quote 15 by J. R. R. Tolkien" tabindex="-1">
+        <div class="quote-meta"><span>15</span><span>English</span></div>
+        <blockquote>
+          <p lang="en">Not all those who wander are lost;</p>
+        </blockquote>
+        <footer><span class="author">J. R. R. Tolkien</span><cite class="source">The Fellowship of the Ring, book I, chapter 10</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 15 by J. R. R. Tolkien" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="zh" id="quote-16" aria-label="Quote 16 by Du Fu" tabindex="-1">
+        <div class="quote-meta"><span>16</span><span>中文 / Chinese</span></div>
+        <blockquote>
+          <p lang="zh">会当凌绝顶，一览众山小。</p>
+          <p class="translation">One day I shall stand upon the summit and see the mountains small below.</p>
+        </blockquote>
+        <footer><span class="author">Du Fu</span><cite class="source">Gazing at Mount Tai</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 16 by Du Fu" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="en" id="quote-17" aria-label="Quote 17 by Henry David Thoreau" tabindex="-1">
+        <div class="quote-meta"><span>17</span><span>English</span></div>
+        <blockquote>
+          <p lang="en">Our life is frittered away by detail.</p>
+        </blockquote>
+        <footer><span class="author">Henry David Thoreau</span><cite class="source">Walden, “Where I Lived, and What I Lived For”</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 17 by Henry David Thoreau" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="zh" id="quote-18" aria-label="Quote 18 by Li Bai" tabindex="-1">
+        <div class="quote-meta"><span>18</span><span>中文 / Chinese</span></div>
+        <blockquote>
+          <p lang="zh">长风破浪会有时，直挂云帆济沧海。</p>
+          <p class="translation">A time will come to ride the wind and waves; I will raise my sail and cross the sea.</p>
+        </blockquote>
+        <footer><span class="author">Li Bai</span><cite class="source">Hard Is the Road, poem I</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 18 by Li Bai" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="en" id="quote-19" aria-label="Quote 19 by Jane Austen" tabindex="-1">
+        <div class="quote-meta"><span>19</span><span>English</span></div>
+        <blockquote>
+          <p lang="en">It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.</p>
+        </blockquote>
+        <footer><span class="author">Jane Austen</span><cite class="source">Pride and Prejudice, chapter 1</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 19 by Jane Austen" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+      <article class="quote" data-language="zh" id="quote-20" aria-label="Quote 20 by Lu You" tabindex="-1">
+        <div class="quote-meta"><span>20</span><span>中文 / Chinese</span></div>
+        <blockquote>
+          <p lang="zh">纸上得来终觉浅，绝知此事要躬行。</p>
+          <p class="translation">What is learned on paper remains incomplete; to truly understand, put it into practice.</p>
+        </blockquote>
+        <footer><span class="author">Lu You</span><cite class="source">Reading on a Winter Night to Show Ziyu</cite></footer>
+        <button class="like-button" type="button" aria-label="Like quote 20 by Lu You" aria-pressed="false" disabled><span class="heart" aria-hidden="true">♡</span> <span class="like-label">Like</span> <span class="like-count">0</span></button>
+      </article>
+    </div>
+    <p class="collection-note">Chinese quotes include English study translations. Sources are listed below every quote. Likes reset when you reload.</p>
+  </main>
+  <footer id="site-footer"></footer>
+  <noscript><p class="noscript">JavaScript is off. Explore <a href="index.html">Home</a>, <a href="quotes.html">Quotes</a>, <a href="project.html">Project ideas</a>, or <a href="about.html">About</a>. Quote interactions require JavaScript.</p></noscript>
+  <script src="nav.js"></script>
+  <script src="likes.js"></script>
+  <script src="quotes.js"></script>
+</body>
+</html>

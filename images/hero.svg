@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="880" viewBox="0 0 800 880">
+  <title>A new page</title>
+  <desc>Original geometric landscape and open-book illustration for Commonplace.</desc>
+  <defs><clipPath id="frame"><rect width="800" height="880" rx="8"/></clipPath><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#efe4d1"/><stop offset="1" stop-color="#f4d7b7"/></linearGradient></defs>
+  <g clip-path="url(#frame)">
+    <path fill="url(#sky)" d="M0 0h800v880H0z"/>
+    <circle cx="494" cy="245" r="105" fill="#bc5a3c"/>
+    <circle cx="494" cy="245" r="128" fill="none" stroke="#bc5a3c" stroke-opacity=".22"/>
+    <path d="M0 440Q155 310 329 431T800 373V880H0Z" fill="#dca889"/>
+    <path d="M0 513Q225 385 410 515T800 477V880H0Z" fill="#b96d50"/>
+    <path d="M0 626Q185 442 392 592T800 561V880H0Z" fill="#794a3c"/>
+    <path d="M0 725Q187 581 405 702T800 683V880H0Z" fill="#344a42"/>
+    <path d="M20 103h108M74 49v108" stroke="#9f775d" stroke-width="1"/>
+    <path d="M642 117q16-14 32 0m0 0q16-14 32 0M600 153q10-10 20 0m0 0q10-10 20 0" fill="none" stroke="#675b49" stroke-width="2"/>
+    <ellipse cx="402" cy="749" rx="257" ry="36" fill="#20362e" opacity=".38"/>
+    <path d="M158 596Q270 551 400 618Q530 551 642 596L660 740Q523 701 400 767Q277 701 140 740Z" fill="#c59361"/>
+    <path d="M162 580Q279 548 400 606V750Q280 694 148 726Z" fill="#f4e6c9"/>
+    <path d="M400 606Q523 548 638 580L652 726Q522 694 400 750Z" fill="#fff4da"/>
+    <path d="M400 606v144M185 604q93-21 187 23M182 625q93-21 190 23M179 646q96-21 193 23M176 667q96-21 196 23M428 628q93-44 185-23M428 649q93-44 188-23M428 670q93-44 191-23M428 691q93-44 194-23" stroke="#b89d78" fill="none" stroke-width="2"/>
+    <path d="M454 587l8 111 18-15 19 10-12-117" fill="#b65337"/>
+    <path d="M60 830h680" stroke="#b1b2a0" stroke-opacity=".5"/>
+    <text x="60" y="807" fill="#e8dfca" font-family="Georgia,serif" font-size="24" letter-spacing="5">A NEW PAGE.</text>
+    <text x="739" y="807" text-anchor="end" fill="#e8dfca" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">COMMONPLACE / 2026</text>
+  </g>
+</svg>
