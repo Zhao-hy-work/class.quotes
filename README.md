@@ -99,3 +99,10 @@
 7. 在开发者工具中查看 Console 和 Network，确认无报错、无 404。
 
 参考课程：https://webtech.landrock.io/slides/recap-2-4.html
+
+
+## Useless machine 互动页面
+
+导航栏新增 Useless machine，对应 machine.html。点击开关后，会依次开盖、伸手、关掉开关、收手、合盖。可以反复体验，动画运行中重复点击不会叠加。Enter 和空格也能启动；系统开启减少动态效果时不播放滑动和旋转过渡。
+
+machine.js 中的 running 标记用于防止重复启动；wait 函数将 setTimeout 包装为 Promise；async/await 按顺序等待每个动作完成。CSS 根据 lid-open、hand-out 和 is-on 类控制画面。开关使用 button 和 role="switch"，aria-checked 同步开关状态，aria-disabled 表示当前动画尚未结束。组件样式集中在 style.css 最后。

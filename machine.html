@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Turn it on. Watch a little hand turn it off. An interactive useless machine.">
+  <title>Useless machine · 赵浩源</title>
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header id="site-header"></header>
+  <main id="main-content" tabindex="-1">
+    <div class="page-intro">
+      <p class="eyebrow">04 / A little experiment</p>
+      <h1>Turn it <em>on.</em></h1>
+      <p class="intro">One switch. One very determined little machine.</p>
+    </div>
+    <section class="machine-playground" aria-label="Interactive useless machine">
+      <div class="machine" id="machine">
+        <div class="machine-slot" aria-hidden="true"></div>
+        <div class="machine-lid" aria-hidden="true"><span></span></div>
+        <div class="machine-arm-window" aria-hidden="true">
+          <svg class="machine-arm" viewBox="0 0 300 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 43H145L168 23Q178 15 189 19L222 33H278Q295 33 295 44Q295 55 278 55H239L247 61Q254 70 244 76L231 81L207 85L180 77L151 64H0Z" fill="#e8b98c" stroke="#ba835a" stroke-width="3" stroke-linejoin="round"/>
+            <path d="M212 40L239 54M204 54L231 67M195 65L219 77" fill="none" stroke="#ba835a" stroke-width="3" stroke-linecap="round"/>
+            <path d="M0 39H118V69H0Z" fill="#a5432c"/>
+            <path d="M116 39V69" stroke="#f8d9c5" stroke-width="6"/>
+          </svg>
+        </div>
+        <div class="machine-switch-wrap">
+          <span class="machine-switch-label" aria-hidden="true">OFF / ON</span>
+          <button id="machine-switch" class="machine-switch" type="button" role="switch" aria-checked="false" aria-label="Turn on the useless machine" aria-describedby="machine-hint" disabled><span class="machine-knob" aria-hidden="true"></span></button>
+        </div>
+        <span class="machine-engraving" aria-hidden="true">THE USELESS MACHINE / No. 01</span>
+        <span class="machine-light" aria-hidden="true"></span>
+      </div>
+      <p class="machine-status" id="machine-status" role="status" aria-live="polite" aria-atomic="true">That is all it does.</p>
+      <p class="machine-hint" id="machine-hint">Tap the switch, or focus it and press Enter or Space.</p>
+      <noscript><p>This machine needs JavaScript to move. Enable JavaScript and reload to try it.</p></noscript>
+    </section>
+    <section class="machine-explainer" aria-labelledby="machine-title">
+      <div><p class="eyebrow">What is a useless machine?</p><h2 id="machine-title">A box with one switch.</h2><p>A tiny experiment in cause and effect. Its only job is to undo what you just did.</p></div>
+      <ol><li>You flip the switch <strong>on.</strong></li><li>The lid opens. A hand comes out.</li><li>It flips the switch <strong>off.</strong></li><li>The hand goes back. The lid closes.</li></ol>
+    </section>
+  </main>
+  <footer id="site-footer"></footer>
+  <noscript><p class="noscript">JavaScript is off. Explore <a href="index.html">Home</a>, <a href="quotes.html">Quotes</a>, <a href="project.html">Project ideas</a>, <a href="machine.html">Useless machine</a>, or <a href="about.html">About</a>.</p></noscript>
+  <script src="nav.js"></script>
+  <script src="machine.js"></script>
+</body>
+</html>
